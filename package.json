@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/oh-taku/pixiv-crawler/issues"
   },
-  "homepage": "https://github.com/oh-taku/pixiv-crawler#readme"
+  "homepage": "https://github.com/oh-taku/pixiv-crawler#readme",
+  "dependencies": {
+    "jsdom": "^18.1.1",
+    "puppeteer": "^12.0.0"
+  }
 }

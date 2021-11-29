@@ -1,0 +1,34 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+www.pixiv.net	FALSE	/	TRUE	1698803672	first_visit_datetime_pc	2021-11-01+10%3A54%3A15
+www.pixiv.net	FALSE	/	TRUE	1698803672	yuid_b	IwRoKFM
+.pixiv.net	TRUE	/	TRUE	1793411672	p_ab_id	8
+.pixiv.net	TRUE	/	TRUE	1793411672	p_ab_id_2	0
+.pixiv.net	TRUE	/	TRUE	1793411672	p_ab_d_id	1133460591
+.pixiv.net	TRUE	/	FALSE	1653931108	__utmz	235335808.1635731673.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+.pixiv.net	TRUE	/	TRUE	1701235096	tag_view_ranking	sMIGxaxLOg~eNYRTYpP0N~jzcHIn8ct1~9j5KSDMqlo~AnNfiiv2mn~hlA76GU8cy~xC6WQzSHqZ~jrdoVqTWTP~YFoTHPzdhi~8bzw0GDhJ3
+.www.pixiv.net	TRUE	/	FALSE	1640755097	_im_vid	01FKCK95NPJ23YMX5314EK1D17
+.www.pixiv.net	TRUE	/	TRUE	1645939097	_im_uid.3929	i.RHTUFcayTkWkPFbKsNPwfA
+.pixiv.net	TRUE	/	FALSE	1701235099	_ga	GA1.2.157586453.1635731673
+.accounts.pixiv.net	TRUE	/	FALSE	1698803676	_ga	GA1.3.157586453.1635731673
+.pixiv.net	TRUE	/	TRUE	1640755095	PHPSESSID	17856417_5WMp9ZdZ20tiB1QWiPIyV4mJetuFw47x
+.pixiv.net	TRUE	/	TRUE	1638323686	device_token	9b6bda0b99684bf9dda5cd861445ef3a
+.pixiv.net	TRUE	/	TRUE	1698803686	privacy_policy_agreement	3
+.pixiv.net	TRUE	/	TRUE	1701235095	c_type	23
+.pixiv.net	TRUE	/	TRUE	1701235095	privacy_policy_notification	0
+.pixiv.net	TRUE	/	TRUE	1701235095	a_type	0
+.pixiv.net	TRUE	/	TRUE	1701235095	b_type	1
+.pixiv.net	TRUE	/	TRUE	1701235095	d_type	4%2C1
+.pixiv.net	TRUE	/	FALSE	1701235108	__utmv	235335808.|3=plan=premium=1^5=gender=male=1^6=user_id=17856417=1^11=lang=ko=1
+www.pixiv.net	FALSE	/	FALSE	1795929508	ki_r	
+.pixiv.net	TRUE	/	FALSE	1701235108	__utma	235335808.157586453.1635731673.1635731673.1638163096.2
+.pixiv.net	TRUE	/	FALSE	0	__utmc	235335808
+.pixiv.net	TRUE	/	TRUE	1638164896	__cf_bm	txWojQG13Jcc1AaRSIUcWPuhoLmk6F1ZU85xV_NzTs4-1638163071-0-AcjOZDZkiFu1bRUtIU1RsyuZ780FeIMN1m3arWyKsu8ukJ+6oz6s4MlTYBup1mPGuXu6n03F//mrwDHrw2eKfESemaqso5zsAwxAxonASWWAs1Ih3iHk0HsQgfWBEVgPm6NgJwqVUoH2UDgwMzNnakCth48pe3VI29Jetmmes51WRLEQteiEeVyIHDZqpYYMAg==
+www.pixiv.net	FALSE	/	FALSE	1795929496	ki_t	1635731686789%3B1638163096549%3B1638163096549%3B2%3B2
+.pixiv.net	TRUE	/	FALSE	1638163696	__utmt	1
+www.pixiv.net	FALSE	/	FALSE	1795929508	ki_s	
+.pixiv.net	TRUE	/	FALSE	1638249499	_gid	GA1.2.1306867084.1638163099
+.pixiv.net	TRUE	/	FALSE	1638163159	_gat_UA-1830249-3	1
+.pixiv.net	TRUE	/	FALSE	1638164908	__utmb	235335808.5.10.1638163096
