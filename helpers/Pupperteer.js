@@ -1,3 +1,6 @@
+const axios = require('axios').default;
+const fs = require('fs');
+const path = require('path');
 const Engine = require('puppeteer');
 const { JSDOM } = require('jsdom');
 
@@ -30,12 +33,17 @@ class Puppeteer {
   async getAllImagePaths(images) {
     return [...images].map((image) => image.getAttribute('src'))
   }
-  async getAllImagesDownload(imagePaths) {
-    if (!imagePaths) throw new Error('이미지 경로를 배열 형태로 전달해주세요.');
-    console.log(imagePaths);
-    const promises = [...imagePaths].map((path) => this.browser.newPage(path));
-    const results = await Promise.all(promises);
-    return results;
+  async getAllImagesDownload(imagePathes) {
+    if (!imagePathes) throw new Error('이미지 경로를 배열 형태로 전달해주세요.');
+    const validatePathes = [...imagePathes].filter((i) => i);
+    const promises = [...validatePathes].filter((i) => i).map((path) => this.download(path));
+    const result = await Promise.all(promises);
+    return result;
+  }
+  async download(uri) {
+    const result = await axios.get(uri);
+    const dest = fs.createWriteStream(path.join(process.env.PWD, 'downloads', Math.random()));
+    result.body.pipeThrough(dest);
   }
 }
 

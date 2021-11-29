@@ -26,7 +26,9 @@
   },
   "homepage": "https://github.com/oh-taku/pixiv-crawler#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "jsdom": "^18.1.1",
+    "node-fetch": "^3.1.0",
     "puppeteer": "^12.0.0"
   }
 }

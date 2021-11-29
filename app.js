@@ -9,7 +9,7 @@ const CookieImporter = require('./helpers/CookieImporter');
   ]);
   const cookies = await cookieImporter.getCookiesOnBrowser();
   const engine = new Puppeteer();
-  await engine.launch();
+  await engine.launch({ headless: false });
   const page = engine.page;
   const cookiePromises = cookies.map((i) => page.setCookie(...i));
   await Promise.all(cookiePromises);
