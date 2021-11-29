@@ -1,0 +1,28 @@
+{
+  "name": "pixiv-crawler",
+  "version": "1.0.0",
+  "description": "픽시브 자료를 크롤링 하기 위한 소프트웨어",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oh-taku/pixiv-crawler.git"
+  },
+  "keywords": [
+    "pixiv",
+    "downloader",
+    "pixiv",
+    "downloader",
+    "crawler",
+    "pixiv",
+    "crawler"
+  ],
+  "author": "Univdev (pcydeveloper@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oh-taku/pixiv-crawler/issues"
+  },
+  "homepage": "https://github.com/oh-taku/pixiv-crawler#readme"
+}
